@@ -25,27 +25,41 @@ class Person {
     }
 }
 
-// this is an instance of a class
-// known as an object
-// IMPORTANT: add the new keyword like so ...
-const princeLeo = new Person('Leo Brooks', true);
+// // this is an instance of a class
+// // known as an object
+// // IMPORTANT: add the new keyword like so ...
+// const princeLeo = new Person('Leo Brooks', true);
 
-// print attributes
-console.log(princeLeo.name);
-console.log(princeLeo.softwareEngineer);
+// // print attributes
+// console.log(princeLeo.name);
+// console.log(princeLeo.softwareEngineer);
 
-// calling the methods (invoke)
-princeLeo.walk();
-princeLeo.eat('Dinosaur Chicken Nuggets');
+// // calling the methods (invoke)
+// princeLeo.walk();
+// princeLeo.eat('Dinosaur Chicken Nuggets');
 
-// add a method on an instance
-princeLeo.jump = function() {
-    console.log('Weeeeee');
+// // add a method on an instance
+// princeLeo.jump = function() {
+//     console.log('Weeeeee');
+// }
+
+// princeLeo.jump();
+// princeLeo.addArtist('Rico Nasty');
+// princeLeo.addArtist('Yeye');
+
+// // view an attribute
+// console.log(princeLeo.artists);
+
+const erikG = new Person('Erik', true);
+erikG.greet()
+erikG.walk();
+erikG.eat('ratatouille');
+erikG.coffee = function() {
+    console.log(`mmm.. this is good coffee.`)
 }
-
-princeLeo.jump();
-princeLeo.addArtist('Rico Nasty');
-princeLeo.addArtist('Yeye');
-
-// view an attribute
-console.log(princeLeo.artists);
+erikG.olly = function() {
+    console.log(`I still can't olly`);
+}
+erikG.coffee()
+erikG.olly()
+console.log(`${erikG.name} has ${erikG.legs} legs`);
