@@ -1,0 +1,23 @@
+{
+  "name": "javascript-classes",
+  "version": "1.0.0",
+  "description": "This is my intro to mastering JavaScript classes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romebell/javascript-classes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romebell/javascript-classes/issues"
+  },
+  "homepage": "https://github.com/romebell/javascript-classes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
