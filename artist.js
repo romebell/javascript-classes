@@ -74,10 +74,10 @@ popSmoke.addSong('Shake the Room (feat Quavo)');
 popSmoke.addSong('Dior');
 console.log(popSmoke.songs);
 // add image
-adele.addImage('https://imagez.tmz.com/image/72/4by3/2020/02/19/724de2994aaa45848243f45c900b8e4e_xl.jpg')
+popSmoke.addImage('https://imagez.tmz.com/image/72/4by3/2020/02/19/724de2994aaa45848243f45c900b8e4e_xl.jpg')
 console.log(popSmoke.image);
 // add IG
-adele.addIG('https://www.instagram.com/realpopsmoke');
+popSmoke.addIG('https://www.instagram.com/realpopsmoke');
 console.log(popSmoke.instagram);
 
 
